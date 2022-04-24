@@ -1,0 +1,86 @@
+.linp-post-list .item {
+    position: relative;
+    min-height: 117px;
+}
+.linp-post-list .item .img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.linp-post-list .item .img-container .date {
+    position: absolute;
+    padding: 5px 13px;
+    background-color: #F35F46;
+    top: 18px;
+    left: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.linp-post-list .item .img-container .date .month {
+    border-bottom: 1px solid #FFF;
+    padding: 0px 5px;
+    line-height: 21px;
+}
+
+.linp-post-list .item .img-container .date .day {
+    font-size: 18px;
+}
+
+.linp-post-list .item .data .content {
+	line-height: 21px;
+    font-size: 15px;
+}
+.linp-post-list .item .meta-data {
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.linp-post-list .item i {
+    margin-right: 5px;
+}
+.linp-post-list .item .meta-data .author {
+	font-size: 12px;
+    text-transform: uppercase;
+}
+
+.linp-post-list .item .meta-data .author i {
+	font-size: 11px;
+    top: 1px;
+    position: relative;
+}
+
+.linp-post-list .item .data h1,
+.linp-post-list .item .data h2,
+.linp-post-list .item .data h3,
+.linp-post-list .item .data h4,
+.linp-post-list .item .data h5,
+.linp-post-list .item .data h6 {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.linp-post-list .item .data h3 a {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.linp-post-list .item .meta-data i {
+    position: relative;
+    top: 4px;
+    font-size: 14px;
+}
+
+.linp-post-list .item .meta-data span {
+    margin-right: 19px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.linp-post-list .item .data .read-more {
+    font-weight: 400;
+    font-family: Raleway;
+}

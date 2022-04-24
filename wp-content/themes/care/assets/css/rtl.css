@@ -1,0 +1,409 @@
+body {
+    direction: rtl;
+}
+
+menu,
+ol,
+ul {
+    padding: 0 28px 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-align: right;
+}
+
+.column,
+.whole,
+.wholes,
+.whole.one,
+.wholes.one,
+.half,
+.halves,
+.half.one,
+.halves.one,
+.half.two,
+.halves.two,
+.third,
+.thirds,
+.third.one,
+.thirds.one,
+.third.two,
+.thirds.two,
+.third.three,
+.thirds.three,
+.fourth,
+.fourths,
+.fourth.one,
+.fourths.one,
+.fourth.two,
+.fourths.two,
+.fourth.three,
+.fourths.three,
+.fourth.four,
+.fourths.four,
+.fifth,
+.fifths,
+.fifth.one,
+.fifths.one,
+.fifth.two,
+.fifths.two,
+.fifth.three,
+.fifths.three,
+.fifth.four,
+.fifths.four,
+.fifth.five,
+.fifths.five,
+.sixth,
+.sixths,
+.sixth.one,
+.sixths.one,
+.sixth.two,
+.sixths.two,
+.sixth.three,
+.sixths.three,
+.sixth.four,
+.sixths.four,
+.sixth.five,
+.sixths.five,
+.sixth.six,
+.sixths.six,
+.seventh,
+.sevenths,
+.seventh.one,
+.sevenths.one,
+.seventh.two,
+.sevenths.two,
+.seventh.three,
+.sevenths.three,
+.seventh.four,
+.sevenths.four,
+.seventh.five,
+.sevenths.five,
+.seventh.six,
+.sevenths.six,
+.seventh.seven,
+.sevenths.seven,
+.eighth,
+.eighths,
+.eighth.one,
+.eighths.one,
+.eighth.two,
+.eighths.two,
+.eighth.three,
+.eighths.three,
+.eighth.four,
+.eighths.four,
+.eighth.five,
+.eighths.five,
+.eighth.six,
+.eighths.six,
+.eighth.seven,
+.eighths.seven,
+.eighth.eight,
+.eighths.eight,
+.ninth,
+.ninths,
+.ninth.one,
+.ninths.one,
+.ninth.two,
+.ninths.two,
+.ninth.three,
+.ninths.three,
+.ninth.four,
+.ninths.four,
+.ninth.five,
+.ninths.five,
+.ninth.six,
+.ninths.six,
+.ninth.seven,
+.ninths.seven,
+.ninth.eight,
+.ninths.eight,
+.ninth.nine,
+.ninths.nine,
+.tenth,
+.tenths,
+.tenth.one,
+.tenths.one,
+.tenth.two,
+.tenths.two,
+.tenth.three,
+.tenths.three,
+.tenth.four,
+.tenths.four,
+.tenth.five,
+.tenths.five,
+.tenth.six,
+.tenths.six,
+.tenth.seven,
+.tenths.seven,
+.tenth.eight,
+.tenths.eight,
+.tenth.nine,
+.tenths.nine,
+.tenth.ten,
+.tenths.ten,
+.eleventh,
+.elevenths,
+.eleventh.one,
+.elevenths.one,
+.eleventh.two,
+.elevenths.two,
+.eleventh.three,
+.elevenths.three,
+.eleventh.four,
+.elevenths.four,
+.eleventh.five,
+.elevenths.five,
+.eleventh.six,
+.elevenths.six,
+.eleventh.seven,
+.elevenths.seven,
+.eleventh.eight,
+.elevenths.eight,
+.eleventh.nine,
+.elevenths.nine,
+.eleventh.ten,
+.elevenths.ten,
+.eleventh.eleven,
+.elevenths.eleven,
+.twelfth,
+.twelfths,
+.twelfth.one,
+.twelfths.one,
+.twelfth.two,
+.twelfths.two,
+.twelfth.three,
+.twelfths.three,
+.twelfth.four,
+.twelfths.four,
+.twelfth.five,
+.twelfths.five,
+.twelfth.six,
+.twelfths.six,
+.twelfth.seven,
+.twelfths.seven,
+.twelfth.eight,
+.twelfths.eight,
+.twelfth.nine,
+.twelfths.nine,
+.twelfth.ten,
+.twelfths.ten,
+.twelfth.eleven,
+.twelfths.eleven,
+.twelfth.twelve,
+.twelfths.twelve {
+    float: right;
+}
+
+.sf-menu ul {
+    right: 0;
+    left: auto;
+}
+
+.scp-icon-bullet-text .scp-icon-bullet-text-icon {
+    float: right;
+    margin-left: 10px;
+}
+
+.pull-left,
+.single-teacher .teacher .text,
+.breadcrumbs .trail-browse,
+.breadcrumbs .trail-items,
+.breadcrumbs .trail-items li,
+.blog .entry-meta span,
+.single-post .entry-meta span,
+.tagcloud a,
+.widget-latest-posts .widget-post-list-item .meta-data span,
+.logo-sticky,
+.widget_text .widget-button,
+.scp-icon-bullet-text .scp-icon-bullet-text-icon,
+.scp-icon-bullet-text .subtitle,
+.scp-icon-bullet-text .description {
+    float: right;
+}
+
+.wh-logo-wrap {
+    float: right !important;
+}
+
+.widget.widget-working-hours ul li .title {
+    float: right;
+    text-align: right;
+}
+
+.widget.widget-working-hours ul li .hours {
+    float: right;
+    text-align: left;
+}
+
+.search-form-wrap ul li select {
+    background-position: 0 5px;
+    padding-right: 15px;
+}
+
+.wh-footer .widget ul li {
+    padding: 7px;
+}
+
+.wh-footer .widget ul li:before {
+    left: auto;
+    right: 0;
+}
+
+.wh-footer .widget ul li:before {
+    content: "";
+    border: none;
+}
+
+.widget.widget-contact-info ul li {
+    padding: 10px 25px 10px 10px;
+}
+
+.widget.widget-contact-info ul li i {
+    left: auto;
+    right: 0;
+}
+
+.widget.widget-contact-info ul li.empty {
+    padding-left: 0;
+    padding-right: 46px;
+}
+
+.linp-featured-courses-carousel {
+    direction: ltr;
+}
+
+.wh-footer .wh-footer-bottom .social-links a i:after {
+    right: -7px;
+    left: auto;
+}
+
+.respmenu-open {
+    right: auto;
+    left: 0;
+}
+
+.respmenu-open,
+.respmenu-submenu-toggle {
+    float: left;
+}
+
+.course-container .course img,
+.course-container li.course img,
+.learner-info .course img,
+.learner-info li.course img {
+    float: right;
+    margin: 4px 0 30px 20px;
+}
+
+.course-container .course .course-price,
+.course-container li.course .course-price,
+.learner-info .course .course-price,
+.learner-info li.course .course-price {
+    right: -10px;
+    left: auto;
+}
+
+.course-container .course .course-price:before,
+.course-container li.course .course-price:before,
+.learner-info .course .course-price:before,
+.learner-info li.course .course-price:before {
+    border: none;
+}
+
+
+/*-----------------------------------------------*/
+
+.wh-logo {
+    float: right;
+}
+
+.sf-menu.wh-menu-main {
+    float: right;
+}
+
+.sf-menu.wh-menu-main .senseiloginlogout {
+    right: auto;
+    left: 0;
+}
+
+.default-icon .aio-icon-default .aio-icon,
+.default-icon .aio-icon-default .aio-icon-img {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+    padding-right: 50px;
+}
+
+.scp-tribe-events .event .info {
+    padding-right: 17px;
+}
+
+
+/*-----------------------------------------------*/
+
+.trail-items li::after {
+    content: "\f0d9" !important;
+    display: inline-block;
+}
+
+input[type="search"] {
+    padding-right: 14px;
+}
+
+.entry-meta span i {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.blog .entry-meta span:first-child,
+.single-post .entry-meta span:first-child {
+    padding-left: 17px;
+    padding-right: 0;
+}
+
+.st-video-popup .tri {
+    right: 50%;
+    margin-right: -8px;
+}
+
+.dash-before {
+    padding-right: 24px;
+}
+
+.dash-before:before {
+    right: 2px;
+}
+
+
+/* WPBakery Page Builder */
+
+.vc_tta-tabs-container {
+    overflow: hidden !important;
+}
+
+.vc_tta-tab {
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .wh-footer .social-links {
+        overflow: hidden;
+        text-align: center;
+        padding-top: 13px !important;
+    }
+}

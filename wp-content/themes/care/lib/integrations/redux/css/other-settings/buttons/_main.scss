@@ -1,0 +1,173 @@
+$button_has_only_border_bottom: false !default;
+$button_has_arrow: false !default;
+$button_font_family: inherit !default;
+$button_letter_spacing: inherit !default;
+$button_text_align: center !default;
+
+$alt_button_has_only_border_bottom: false !default;
+$alt_button_has_arrow: false !default;
+$alt_button_font_family: inherit !default;
+$alt_button_letter_spacing: inherit !default;
+$alt_button_text_align: center !default;
+
+%button {
+  background-color: $button_bg_color;
+  border-radius: $button_border_radius;
+  font-size: $button_font_size;
+  font-weight: $button_font_weight;
+  line-height: $button_line_height;
+  border: $button_border;
+  color: $button_font_color;
+  padding: $button_padding;
+  text-transform: $button_text_transform;
+  font-family: $button_font_family;
+  letter-spacing: $button_letter_spacing;
+  text-align: $button_text_align;
+
+  @if $button_has_only_border_bottom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+
+  &:hover, &:focus {
+    background-color: $button_bg_color_hover;
+    border: $button_border_hover;
+    color: $button_font_color_hover;
+
+    @if $button_has_only_border_bottom {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+  }
+}
+
+%button_alt {
+  background-color: $alt_button_bg_color;
+  border-radius: $alt_button_border_radius;
+  font-size: $alt_button_font_size;
+  font-weight: $alt_button_font_weight;
+  line-height: $alt_button_line_height;
+  border: $alt_button_border;
+  color: $alt_button_font_color;
+  padding: $alt_button_padding;
+  text-transform: $alt_button_text_transform;
+  font-family: $alt_button_font_family;
+  letter-spacing: $alt_button_letter_spacing;
+  text-align: $alt_button_text_align;
+
+  @if $alt_button_has_only_border_bottom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  &:hover, &:focus {
+    background-color: $alt_button_bg_color_hover;
+    border: $alt_button_border_hover;
+    color: $alt_button_font_color_hover;
+
+    @if $alt_button_has_only_border_bottom {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+  }
+}
+
+/* -------------------------------------
+Default Button
+---------------------------------------*/
+
+
+
+button,
+.button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.wh-button,
+.elementor-button,
+.course-meta .register a,
+#tribe-events .tribe-events-button,
+#tribe-bar-form .tribe-bar-submit input[type=submit],
+a.view-results,
+a.view-results-link,
+a.sensei-certificate-link,
+.sensei-course-filters li a,
+li.msm-menu-item .msm-submenu a.wh-button {
+  @extend %button;
+}
+
+.course-container, 
+.course, 
+.lesson, 
+.quiz {
+  a.button, a.button:visited,
+  a.comment-reply-link,
+  #commentform #submit,
+  .submit,
+  input[type=submit],
+  input.button,
+  button.button {
+    @extend %button;
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+/* -------------------------------------
+Woocommerce
+---------------------------------------*/
+
+.woocommerce a.button.add_to_cart_button {
+  @extend %button;
+}
+
+.woocommerce a.button,
+.woocommerce input.button,
+.woocommerce a.button.alt,
+.woocommerce input.button.alt,
+.woocommerce button.button.alt,
+.woocommerce button.button,
+.woocommerce-product-search button,
+.woocommerce #respond input#submit {
+  @extend %button_alt;
+}
+
+/* -------------------------------------
+Alt Button
+---------------------------------------*/
+.wh-alt-button, .search-submit, .wh-minicart .buttons a,
+li.msm-menu-item .msm-submenu a.wh-alt-button {
+  @extend %button_alt;
+}
+
+%arrow {
+  content: "\f0da" !important;
+  font-family: FontAwesome !important;
+  font-size: 1.6em;
+  font-weight: normal;
+  position: relative;
+  top: 0;
+  float: right;
+  margin-left: 20px;
+  text-align: left;
+}
+
+@if $button_has_arrow {
+  .wh-button:after {
+    @extend %arrow;
+  }
+}
+
+@if $alt_button_has_arrow {
+  .wh-alt-button:after {
+    @extend %arrow;
+  }
+}

@@ -1,0 +1,83 @@
+$tabs_big_icon_size: 30px !default;
+
+
+/* -------------------------------------
+Accordion Title Color
+---------------------------------------*/
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+  color: $accordion_title_color;
+}
+
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+  color: $accordion_title_color_hover;
+}
+
+.wh-big-icon {
+
+  .vc_tta-tab > a {
+    padding: 14px 30px !important;
+    font-size: 14px !important;
+  }
+  i.vc_tta-icon {
+    font-size: $tabs_big_icon_size !important;
+    display: block !important;
+    margin: 26px 0;
+    text-align: center;
+  }
+  .vc_tta-title-text {
+    margin-left: auto !important;
+  }
+}
+
+.wh-custom-tabs {
+
+  /* -------------------------------------
+  Tabs Title Color
+  ---------------------------------------*/
+  .wpb_content_element .wpb_tabs_nav li a {
+    color: $tabs_title_color  !important;
+    background-color: $tabs_title_bg_color !important;
+  }
+
+  .wpb_content_element .wpb_tabs_nav li a:hover {
+    color: $tabs_title_color_hover  !important;
+    background-color: $tabs_title_bg_color_hover !important;
+  }
+
+  .vc_tta-tab > a,
+  &.vc_tta.vc_tta-tabs .vc_tta-panel-title > a {
+    color: $tabs_title_color !important;
+    background-color: $tabs_title_bg_color !important;
+  }
+
+  .vc_tta-tab > a:hover,
+  &.vc_tta.vc_tta-tabs .vc_tta-panel-title > a:hover {
+    color: $tabs_title_color_hover !important;
+    background-color: $tabs_title_bg_color_hover !important;
+  }
+
+  /* -------------------------------------
+  Tabs Title Color Active
+  ---------------------------------------*/
+  .wpb_content_element .wpb_tabs_nav li.ui-tabs-active a {
+    color: $tabs_title_active_color  !important;
+    background-color: $tabs_title_active_bg_color !important;
+  }
+
+  .wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:hover {
+    color: $tabs_title_active_color_hover;
+    background-color: $tabs_title_active_bg_color_hover !important;
+  }
+
+  .vc_tta-tab.vc_active > a,
+  &.vc_tta.vc_tta-tabs .vc_active .vc_tta-panel-title > a {
+    color: $tabs_title_active_color  !important;
+    background-color: $tabs_title_active_bg_color !important;
+  }
+
+  .vc_tta-tab.vc_active > a:hover,
+  &.vc_tta.vc_tta-tabs .vc_active .vc_tta-panel-title > a:hover {
+    color: $tabs_title_active_color_hover  !important;
+    background-color: $tabs_title_active_bg_color_hover !important;
+  }
+}

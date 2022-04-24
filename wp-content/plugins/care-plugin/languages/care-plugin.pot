@@ -1,0 +1,761 @@
+# Copyright (C) 2021 Aislin Themes
+# This file is distributed under the GPLv2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Care Plugin 2.5.0\n"
+"Report-Msgid-Bugs-To: https://themeforest.net/user/aislin\n"
+"POT-Creation-Date: 2021-02-10 10:52:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Aislin\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:32
+msgid "3"
+msgstr ""
+
+#: includes/includes.php:35
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: includes/layout-blocks/importer.php:35
+#: includes/layout-blocks/importer.php:70
+msgid "Import"
+msgstr ""
+
+#: includes/layout-blocks/importer.php:57
+#: includes/layout-blocks/importer.php:132
+msgid "Import Layout Blocks"
+msgstr ""
+
+#: includes/layout-blocks/importer.php:88
+msgid "Import complete."
+msgstr ""
+
+#: includes/layout-blocks/importer.php:135
+msgid "Upload file"
+msgstr ""
+
+#: includes/layout-blocks/init.php:24 includes/wp-widgets/banner.php:33
+msgid "Title"
+msgstr ""
+
+#: includes/layout-blocks/init.php:25
+msgid "Location"
+msgstr ""
+
+#: includes/layout-blocks/init.php:26
+#: includes/wpbakery-page-builder/addons/menu/addon.php:39
+msgid "Type"
+msgstr ""
+
+#: includes/layout-blocks/init.php:27
+msgid "Date"
+msgstr ""
+
+#: includes/layout-blocks/metaboxes.php:22
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/layout-blocks/metaboxes.php:24
+msgid ""
+"Use this field only if you want a different font than the ones already "
+"defined in Theme Options. Visit %s and select your font there. Than just "
+"copy the url here."
+msgstr ""
+
+#: includes/theme-icons.php:26
+msgid "Theme Icons"
+msgstr ""
+
+#: includes/wp-widgets/banner.php:13 includes/wp-widgets/banner.php:22
+msgid "Banner"
+msgstr ""
+
+#: includes/wp-widgets/banner.php:40
+msgid "Label"
+msgstr ""
+
+#: includes/wp-widgets/banner.php:47
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:29
+msgid "Text"
+msgstr ""
+
+#: includes/wp-widgets/banner.php:53
+msgid "Button Text"
+msgstr ""
+
+#: includes/wp-widgets/banner.php:60
+msgid "Button Link"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:12
+msgid "Latest Post from News category.( for footer section)"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:21
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:32
+#: includes/wpbakery-page-builder/addons/events/events.php:34
+msgid "Widget Title"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:36
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:50
+msgid "Category"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:51
+msgid "Show Image"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:53
+msgid "No"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:54
+msgid "Yes"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:58
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:56
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:62
+msgid "Date Format"
+msgstr ""
+
+#: includes/wp-widgets/latest-posts.php:66
+msgid "Category Link Button Text"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:18
+msgid "Content Box"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:30
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:36
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:71
+msgid "URL (Link)"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:32
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:73
+msgid "Add link to icon."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:37
+msgid "Use Overlay"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:46
+msgid "Overlay Title"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:52
+#: includes/wpbakery-page-builder/addons/events/events.php:78
+#: includes/wpbakery-page-builder/addons/logo/addon.php:45
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:127
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:150
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:95
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:70
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:102
+msgid "Extra class name"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:53
+#: includes/wpbakery-page-builder/addons/events/events.php:80
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:129
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:152
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:96
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:72
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:57
+#: includes/wpbakery-page-builder/addons/logo/addon.php:51
+#: includes/wpbakery-page-builder/addons/menu/addon.php:145
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:144
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:100
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:108
+msgid "CSS box"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:59
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:65
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:71
+#: includes/wpbakery-page-builder/addons/logo/addon.php:53
+#: includes/wpbakery-page-builder/addons/menu/addon.php:147
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:146
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:102
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:110
+msgid "Design Options"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:63
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:68
+msgid "Bg Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:69
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:82
+msgid "Hover Bg Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:76
+msgid "Top"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:77
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:83
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:89
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:95
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:101
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:107
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:113
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:119
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:82
+#: includes/wpbakery-page-builder/addons/logo/addon.php:36
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:63
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:93
+msgid "Left"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:88
+msgid "Spread"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:93
+msgid "Box Shadow Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:100
+msgid "Top Hover"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:106
+msgid "Left Hover"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:112
+msgid "Spread Hover"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/content-box/addon.php:117
+msgid "Box Shadow Color Hover"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:22
+#: includes/wpbakery-page-builder/addons/events/redux-options.php:3
+msgid "Tribe Events"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:28
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:44
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:28
+msgid "Aislin"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:42
+msgid "Start Date Format"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:49
+msgid "Nubmer of events to display"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:51
+#: includes/wpbakery-page-builder/addons/events/events.php:67
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:70
+msgid "Enter number only."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:56
+msgid "Show Description"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:65
+msgid "Event description word length"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:72
+msgid "View All Events Link Text"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:74
+msgid "If Left Blank link will not show."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/events.php:173
+msgid "There are no upcoming events at this time."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/redux-options.php:10
+msgid "Title Typography"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/redux-options.php:25
+msgid "Title Margin"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/redux-options.php:37
+msgid "Date Typography"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/redux-options.php:56
+msgid "Date Padding"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/events/redux-options.php:65
+msgid "Date Width"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:23
+msgid "Logo"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:24
+msgid "Uses logo image set in Theme Options"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:33
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:90
+msgid "Image alignment"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:37
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:64
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:94
+msgid "Right"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:38
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:65
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:95
+msgid "Center"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:40
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:97
+msgid "Select image alignment."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/logo/addon.php:47
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:104
+msgid ""
+"Style particular content element differently - add a class name and refer "
+"to it in custom CSS."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:18
+#: includes/wpbakery-page-builder/addons/menu/addon.php:70
+msgid "Menu"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:19
+msgid "Choose a menu"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:30
+msgid "Depth"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:33
+msgid "Depth of the menu."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:49
+msgid "Select menu type."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:55
+msgid "Main Menu Orientation"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:82
+msgid "Container"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:89
+msgid "Container element."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:99
+msgid "Container Class"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:111
+msgid "Container ID"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:123
+msgid "Menu Class"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:125
+msgid "sf-menu"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/menu/addon.php:135
+msgid "Position"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:38
+msgid "Post List"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:62
+msgid "Post Date Format"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:68
+msgid "Post description word length"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:75
+msgid "Link Text"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:78
+msgid "If you do not wish to display Read More link just leave this field blank."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:90
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:104
+msgid "Show Author/Comment Count/Category?"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:114
+msgid "Thumbnail Dimensions"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:121
+msgid "Meta Data Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/post-list/addon.php:222
+msgid "by"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:22
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:34
+msgid "Plan Title"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:42
+msgid "Price"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:50
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:58
+msgid "Features"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:61
+msgid "Pipe separated list (Feature 1 | Feature 2 | Feature 3)."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:67
+msgid "Footnote"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:73
+msgid "Background Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:78
+msgid "Separator Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:83
+msgid "Title/Price Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:88
+msgid "Feature Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/pricing-plan/addon.php:93
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:77
+msgid "Icon Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:32
+msgid "Text on the button"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:38
+msgid "Add link to button."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:44
+msgid "Style"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:51
+msgid "Theme Button Styling form Theme Options/Other Settings."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:57
+msgid "Align"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:64
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:71
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:78
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:85
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:92
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:100
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:108
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:116
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:124
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:132
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:140
+msgid "Overrides"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:75
+msgid "Text Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:89
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:96
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:49
+msgid "Font Size"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:99
+msgid "Override font size."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:104
+msgid "Width"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:107
+msgid "Override button width."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:112
+msgid "Padding Top"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:115
+msgid "Override padding top."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:120
+msgid "Padding Left"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:123
+msgid "Override padding left."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:128
+msgid "Padding Bottom"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:131
+msgid "Override padding bottom."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:136
+msgid "Padding Right"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-button/addon.php:139
+msgid "Override padding right."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:34
+msgid "Icon"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:45
+msgid "Select icon from library."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:51
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:34
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:55
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:63
+msgid "Value in px. Enter number only."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:55
+msgid "Position Absolute?"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:60
+msgid "Icon alignment"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:67
+msgid "Select alignment."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:79
+msgid "If color is not set, theme accent color will be used."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:83
+msgid "Use Theme Accent Color for Hover"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:88
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-icon/addon.php:90
+msgid "Will not be used if Use Accent Color is checked."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:31
+msgid "Map Height"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:39
+msgid "Latitude"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:42
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:49
+msgid "Visit %s to get coordinates."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:42
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:49
+msgid "this site"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:46
+msgid "Longitude"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:53
+msgid "Zoom Level"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:59
+msgid "Snazzy Maps Style"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:61
+msgid ""
+"Visit %s to create your map style. Copy JavaScript Style Array and paste "
+"here."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:61
+msgid "Example"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/theme-map/addon.php:65
+msgid "Disable Map Zoom Scroll"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:27
+msgid "Video Popup"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:37
+msgid "Widget title"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:39
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:44
+msgid "Video Url"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:47
+msgid "Add Youtube/Vimeo video url"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:52
+msgid "Video Width"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:60
+msgid "Video Height"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:67
+msgid "Play Badge Color"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:73
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:76
+msgid "Select image from media library."
+msgstr ""
+
+#: includes/wpbakery-page-builder/addons/video-popup/addon.php:84
+msgid "Image Size"
+msgstr ""
+
+#: includes/wpbakery-page-builder/init.php:14
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Care Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Care theme helper plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Aislin Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/Aislin/portfolio"
+msgstr ""

@@ -1,0 +1,33 @@
+#sgg_shortcode-form {
+	display: none;
+}
+#sgg_shortcode-form .sgg_color,
+#sgg_shortcode-form .sgg_color:focus {
+	border-right: 30px solid;
+	outline: 0;
+	-webkit-box-shadow:inset 0px 0px 3px rgba(0,0,0,0.17), 0px 0px 1px rgba(0,0,0,0.47);
+	box-shadow:inset 0px 0px 3px rgba(0,0,0,0.17), 0px 0px 1px rgba(0,0,0,0.47);
+}
+div.colpick {
+	z-index: 999999999;
+}
+#sgg_table td:first-child {
+	width: 33%;
+	font-weight: 600;
+	vertical-align: top;
+	padding-top: 4px;
+}
+#sgg_table input,
+#sgg_table select{
+	width: 67%;
+}
+#sgg_shortcode-form h2 {
+	font-weight: 600;
+}
+#sgg_shortcode-form td em {
+	margin-bottom: 10px;
+	display: block;
+}
+.wp-dialog {
+    z-index: 99999999 !important;
+}

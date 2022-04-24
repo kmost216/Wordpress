@@ -1,0 +1,275 @@
+
+/*
+	* Style Util settings of Kreatura Modal Window
+	*
+	* (c) 2019-2021 Kreatura Media, AgeraWeb, George K., John G.
+	*
+*/
+
+
+
+.kmw-modal {
+	text-align: justify;
+}
+
+kmw-h1 {
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.kmw-modal-title input {
+	width: 250px;
+	-webkit-appearance: none;
+	border: 0;
+	padding: 0 5px;
+	margin: 0;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	border-radius: 5px;
+	transition: all .2s ease-in-out;
+	outline: 0;
+	background: transparent;
+}
+
+.kmw-modal-title input:first-child {
+	margin-left: -5px;
+}
+
+.kmw-modal-content {
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.kmw-modal-content a {
+	text-decoration: none;
+}
+
+.kmw-modal-content p {
+	padding: 0;
+	border: 0;
+	margin: 0 auto;
+	line-height: inherit;
+	text-align: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+.kmw-modal-content button,
+.kmw-modal-content .button {
+	border-radius: 100px;
+	box-shadow: none !important;
+	outline: 0;
+}
+
+.kmw-modal-content small,
+.kmw-modal-content .small {
+	font-size: 80%;
+	line-height: 1.6em;
+}
+
+.kmw-modal-content .italic {
+	font-style: italic;
+}
+
+.kmw-modal-content .dim {
+	opacity: .75;
+}
+
+.kmw-modal-content .ls-center,
+.kmw-modal-content .centered,
+.kmw-modal-content .center {
+	text-align: center;
+}
+
+.kmw-modal-content p,
+.kmw-modal-content ul,
+.kmw-modal-content .ls-notification {
+	margin-bottom: 2em !important;
+}
+
+.kmw-modal-content .ls-notification {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding: 0 !important;
+	box-shadow: none;
+	margin-left: 0;
+}
+
+.kmw-modal-content .ls-notification div {
+	padding-left: 1em !important;
+	font-size: 90%;
+}
+
+kmw-navigation {
+	display: block;
+}
+
+kmw-menuitem,
+kmw-menutitle {
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	box-sizing: content-box;
+	width: 100%;
+	margin-left: -10px;
+	border-radius: 7px;
+	padding: 7px 10px;
+	height: 30px;
+	user-select: none;
+}
+
+kmw-menuitem {
+	cursor: pointer;
+}
+
+kmw-icon,
+ls-icon {
+	flex: 0 0 auto;
+}
+
+kmw-menutext {
+	flex: 1 1 auto;
+}
+
+kmw-menuitem.kmw-disabled kmw-icon,
+kmw-menuitem.kmw-disabled kmw-menutext {
+	opacity: .45 !important;
+	cursor: default;
+}
+
+kmw-menuitem.kmw-disabled {
+	cursor: default;
+}
+
+kmw-menutext {
+	display: inline;
+	font-weight: 600;
+}
+
+kmw-menutitle {
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+
+.kmw-sidebar-left.kmw-merged kmw-menuitem {
+	padding-right: 0;
+}
+
+.kmw-sidebar-right.kmw-merged kmw-menuitem {
+	padding-left: 0;
+}
+
+kmw-menuitem:not(.kmw-disabled):hover {
+	opacity: 1;
+}
+
+kmw-icon {
+	display: block;
+	color: currentColor;
+	fill: currentColor;
+	width: 24px;
+	height: 24px;
+	padding-right: 10px;
+}
+
+kmw-icon svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+kmw-menuitem.kmw-active {
+	opacity: 1;
+}
+
+.kmw-searchfield {
+	border: none;
+	background-image: none;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+	border: 2px solid transparent;
+	border-radius: 100px;
+	width: 100%;
+	height: 34px;
+	box-sizing: border-box;
+	padding-left: 8px;
+}
+
+.kmw-searchfield::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+	height: 1.4em;
+	width: 1.4em;
+	border-radius: 50em;
+	background: url(../svg/cancel.svg) no-repeat 50% 50%;
+	background-size: contain;
+	opacity: .5;
+	font-size: 16px;
+}
+
+.kmw-searchfield::-webkit-search-cancel-button:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
+
+
+/* Light Theme */
+
+	.kmw-theme-light .kmw-modal-title input:hover,
+	.kmw-theme-light .kmw-modal-title input:focus {
+		background: rgba(0,0,0,.075);
+	}
+
+
+
+/* Dark Theme */
+
+	.kmw-theme-dark .kmw-modal-title input:hover,
+	.kmw-theme-dark .kmw-modal-title input:focus {
+		background: rgba(255,255,255,.1);
+	}
+
+
+
+/* Common / Merged */
+
+	.kmw-theme-light .kmw-searchfield,
+	.kmw-theme-dark .kmw-sidebar:not(.kmw-merged) .kmw-searchfield {
+		color: #333;
+		border-color: #777;
+	}
+
+	.kmw-theme-light .kmw-sidebar:not(.kmw-merged) .kmw-searchfield,
+	.kmw-theme-dark .kmw-searchfield {
+		color: white;
+		border-color: #aaa;
+	}
+
+	.kmw-theme-light .kmw-sidebar:not(.kmw-merged) .kmw-searchfield::-webkit-search-cancel-button,
+	.kmw-theme-dark .kmw-searchfield::-webkit-search-cancel-button {
+		filter: invert(1);
+	}
+
+	.kmw-theme-dark .kmw-sidebar:not(.kmw-merged) .kmw-searchfield::-webkit-search-cancel-button {
+		filter: none;
+	}
+
+/*	gray bg active menuitem design
+
+	.kmw-theme-light .kmw-sidebar.kmw-merged kmw-menuitem.kmw-active,
+	.kmw-theme-dark .kmw-sidebar:not(.kmw-merged) kmw-menuitem.kmw-active {
+		background: rgba(0,0,0,.1);
+	}
+
+	.kmw-theme-light .kmw-sidebar:not(.kmw-merged) kmw-menuitem.kmw-active,
+	.kmw-theme-dark .kmw-sidebar.kmw-merged kmw-menuitem.kmw-active {
+		background: rgba(255,255,255,.2);
+	}
+*/

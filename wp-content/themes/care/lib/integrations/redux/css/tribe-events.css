@@ -1,0 +1,18 @@
+/* -------------------------------------
+Tribe Events Title Color
+---------------------------------------*/
+.tribe-events-list .type-tribe_events h2 a,
+#tribe-events-content .tribe-events-tooltip h4 {
+    color:#353434;
+}
+.tribe-events-list .type-tribe_events h2 a:hover,
+#tribe-events-content .tribe-events-tooltip h4:hover {
+    color:#585757;
+}
+/* -------------------------------------
+Tribe Events Calendat Head Colors
+---------------------------------------*/
+.tribe-events-calendar thead th {
+    background-color: #999;
+    border: 1px solid #333;
+}

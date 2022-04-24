@@ -1,0 +1,270 @@
+
+/*
+	* Style settings of Kreatura Modal Window
+	*
+	* (c) 2019-2021 Kreatura Media, AgeraWeb, George K., John G.
+	*
+*/
+
+
+
+/* Modal Window */
+
+	kmw-div,
+	kmw-h1 {
+		display: block;
+	}
+
+	kmw-h1 {
+		font-size: 2em;
+	}
+
+	.kmw-modal-outer {
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		pointer-events: none;
+		transform-style: flat !important;
+	}
+
+	.kmw-modal-container {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		pointer-events: none;
+		transform-style: preserve-3d !important;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
+
+	.kmw-modal {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		box-sizing: border-box;
+		transform: translate(-50%,-50%);
+		pointer-events: auto;
+		display: flex;
+		overflow: hidden;
+	}
+
+	.kmw-sidebar,
+	.kmw-modal-bg {
+		position: relative;
+	}
+
+	.kmw-sidebar {
+		width: 0;
+		z-index: 5;
+	}
+
+	.kmw-sidebar-bg-helper {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		z-index: 1;
+	}
+
+	.kmw-sidebar-left .kmw-sidebar-bg-helper {
+		left: 100%;
+	}
+
+	.kmw-sidebar-right .kmw-sidebar-bg-helper {
+		right: 100%;
+	}
+
+	.kmw-sidebar-inner {
+		position: relative;
+		z-index: 2;
+		overflow: auto;
+	}
+
+	.kmw-modal-bg {
+		z-index: 10;
+		flex-grow: 1;
+		flex-basis: 200px;
+	}
+
+	.kmw-modal-inner {
+		box-sizing: border-box;
+		overflow: auto;
+	}
+
+	.kmw-modal-title {
+		position: relative;
+	}
+
+	.kmw-sidebar-content,
+	.kmw-modal-content {
+		box-sizing: border-box;
+		position: relative;
+		min-height: 100%;
+	}
+
+	.kmw-modal-content:before,
+	.kmw-modal-content:after {
+		content: '';
+		width: 100%;
+		height: 0.00000001px;
+		display: block;
+	}
+
+	.kmw-modal-close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		cursor: pointer;
+		z-index: 10;
+		width: 1.3em !important;
+		height: 1.3em !important;
+		opacity: .65;
+		transition: opacity .25s ease-in-out;
+		transform: translate(-10px,10px);
+		box-sizing: content-box;
+	}
+
+	.kmw-modal-close:hover {
+		opacity: 1;
+	}
+
+	.kmw-prevent-scroll {
+		overflow: hidden !important;
+	}
+
+	.animating-in .kmw-modal,
+	.animating-out .kmw-modal {
+		pointer-events: none;
+	}
+
+
+
+	/* Modal Style */
+
+	.kmw-modal,
+	.kmw-modal-bg,
+	.kmw-sidebar-left,
+	.kmw-sidebar-right {
+		border-radius: 16px;
+	}
+
+	.kmw-sidebar-left {
+		border-top-right-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+
+	.kmw-sidebar-right {
+		border-top-left-radius: 0 !important;
+		border-bottom-left-radius: 0 !important;
+	}
+
+	.kmw-sidebar-bg-helper {
+		width: 16px; /* should be the same as border-radius! */
+	}
+
+	.kmw-modal.kmw-effects {
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+	}
+
+
+
+	/* Default Style */
+
+	/* Light Theme */
+
+	.kmw-theme-light .kmw-modal-bg,
+	.kmw-theme-light .kmw-sidebar.kmw-merged,
+	.kmw-theme-light .kmw-sidebar.kmw-merged .kmw-sidebar-bg-helper {
+		background-color: white;
+	}
+
+	.kmw-modal.kmw-theme-light {
+		box-shadow: 0 50px 200px rgba(0,0,0,.3);
+	}
+
+	.kmw-theme-light .kmw-sidebar,
+	.kmw-theme-light .kmw-sidebar-bg-helper {
+		background-color: rgba(10, 14, 19, 0.9);
+	}
+
+	.kmw-theme-light .kmw-modal-close {
+		color: #777;
+	}
+
+	.kmw-theme-light .kmw-modal-title,
+	.kmw-theme-light .kmw-modal-content,
+	.kmw-theme-light .kmw-modal-toolbar {
+		color: #333;
+	}
+
+	.kmw-theme-light .kmw-sidebar,
+	.kmw-theme-light .kmw-sidebar-title {
+		color: white;
+	}
+
+	.kmw-theme-light .kmw-sidebar.kmw-merged,
+	.kmw-theme-light .kmw-sidebar.kmw-merged .kmw-sidebar-title {
+		color: #333;
+	}
+
+
+
+	/* Dark Theme */
+
+	.kmw-theme-dark .kmw-modal-bg,
+	.kmw-theme-dark .kmw-sidebar.kmw-merged,
+	.kmw-theme-dark .kmw-sidebar.kmw-merged .kmw-sidebar-bg-helper {
+		background-color: #111;
+	}
+
+	.kmw-theme-dark .kmw-sidebar,
+	.kmw-theme-dark .kmw-sidebar-bg-helper {
+		background-color: rgba(255,255,255,.85);
+	}
+
+	.kmw-theme-dark .kmw-modal-close {
+		color: #ccc;
+	}
+
+	.kmw-theme-dark .kmw-modal-title,
+	.kmw-theme-dark .kmw-modal-content,
+	.kmw-theme-dark .kmw-modal-toolbar {
+		color: #bbb;
+	}
+
+	.kmw-theme-dark .kmw-sidebar,
+	.kmw-theme-dark .kmw-sidebar-title {
+		color: #333;
+	}
+
+	.kmw-theme-dark .kmw-sidebar.kmw-merged,
+	.kmw-theme-dark .kmw-sidebar.kmw-merged .kmw-sidebar-title {
+		color: white;
+	}
+
+
+
+/* Overlay */
+
+	.kmw-overlay {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+	}
+
+	/* custom styles */
+
+	.kmw-overlay.kmw-theme-light {
+		background-color: rgba(0,0,0,.75);
+	}
+
+	.kmw-overlay.kmw-theme-dark {
+		background-color: rgba(255,255,255,.75);
+	}

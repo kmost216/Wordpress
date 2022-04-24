@@ -1,0 +1,14 @@
+.tribe-events-list .type-tribe_events h2 a,
+#tribe-events-content .tribe-events-tooltip h4 {
+    color: $tribe_events_title_color;
+}
+
+.tribe-events-list .type-tribe_events h2 a:hover,
+#tribe-events-content .tribe-events-tooltip h4:hover {
+    color: $tribe_events_title_color_hover;
+}
+
+.tribe-events-calendar thead th {
+    background-color: $tribe_events_calendar_head_bg_color;
+    border: $tribe_events_calendar_head_border;
+}

@@ -1,0 +1,59 @@
+/* -------------------------------------
+Forms
+---------------------------------------*/
+input,
+textarea,
+select,
+input:focus,
+textarea:focus,
+.select2-container .select2-selection--single {
+    background-color: $form_element_background_color;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"] {
+    width: $form_element_width;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+select {
+    height: $form_element_height;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+.select2-dropdown,
+.select2-container .select2-choice,
+.select2-container .select2-selection--single,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+textarea:focus {
+    border: $form_element_border;
+}
+
+textarea {
+    width: $form_element_textarea_width;
+
+}

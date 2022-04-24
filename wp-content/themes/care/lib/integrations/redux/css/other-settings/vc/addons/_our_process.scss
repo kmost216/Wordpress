@@ -1,0 +1,30 @@
+.our-process {
+
+
+    .dot-container {
+
+        color: $vc_addon_our_process_text_color;
+        font-size: $vc_addon_our_process_text_font_size;
+
+        .dot {
+            color: $vc_addon_our_process_dot_color;
+            font-size: $vc_addon_our_process_dot_font_size;
+        }
+
+        .line {
+            background-color: $vc_addon_our_process_line_bg_color;
+        }
+
+        .triangle {
+            border-top-color: $vc_addon_our_process_triangle_color;
+        }
+    }
+
+    .dots {
+
+        .title {
+            color: $vc_addon_our_process_title_color;
+            font-size: $vc_addon_our_process_title_font_size;
+        }
+    }
+}
